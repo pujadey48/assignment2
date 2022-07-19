@@ -1,13 +1,22 @@
+
+/* ----Google Fonts---- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-.container1{
+
+/* ----Header---- */
+
+.header-container{
     display: flex;
     background: #161616;
     border-radius: 30px;
     justify-content: center;
     position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .header-part1{
     /* height: 424px; */
@@ -33,7 +42,7 @@ body{
     text-decoration: none;
     color: #FFFFFF;
     background: #DD0000;
-    border-radius: 41px;
+    border-radius: 5px;
     padding: 10px 24px;
 }
 .header-part2{
@@ -46,3 +55,104 @@ body{
     margin: auto;
     
 }
+/* ---main part--- */
+
+.main-container{
+    margin-top: 100px;
+}
+
+ .side-button1{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+.side-button-others{
+    text-decoration: none;
+    color: #161616;
+    background:  #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 24px;
+} 
+.side-buttons-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-buttons-list li{
+    list-style: none;
+}
+.side-buttons-item{
+    margin-bottom: 30px;
+}
+
+.side-buttons-list li a{
+    text-decoration: none;
+    /* color: #161616; */
+    font-size: 20px;
+}
+
+/* ---Footer--- */
+.footer-container{
+    background: #161616;
+}
+.footer-heading{
+    color: #FFFFFF;
+    text-align: center;
+   padding-top: 30px;
+}
+.hr-class{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(243, 239, 239);
+    opacity: .1;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+    
+}
+.nav-list li{
+    list-style: none;
+    
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 14px;
+}
+.social-container{
+    padding-bottom: 30px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-list li{
+    list-style: none;
+}
+.social-list li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 20px;
+}
+/* .fa-facebook{
+    margin-right: 30px;
+} */
+.fa-linkedin{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+/* .fa-twitter{
+    margin-right: 30px;
+} */
+
