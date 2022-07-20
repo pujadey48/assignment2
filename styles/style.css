@@ -303,6 +303,12 @@ body{
         display: flex;
         margin: 0;
     }
+    .button1{
+        margin: 5px;
+    }
+    .button2{
+        margin: 5px;
+    }
     .button-show-all{
          display:inherit;
     }
