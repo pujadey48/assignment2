@@ -49,7 +49,7 @@ body{
     
 }
 .header-part2{
-    display: inline-block;
+    display: flex;
     align-self: flex-end;
     justify-content: center;
     width: 50%;
@@ -238,11 +238,9 @@ body{
     grid-gap: 20px;
 }
 .upcomming-maches{
-    width: 235px;
-    height: 150px;
     border: 1px solid rgb(245, 241, 241);
-    
     border-radius: 10px;
+    padding: 10px;
 }
 .upcomming-mache{
     display: flex;
@@ -250,8 +248,8 @@ body{
     margin-top: 25px;
 }
 .flag img{
-    width: 70px;
-    height: 40px;
+    width: 100%;
+    height: auto;
 }
 .upcomming-mach-details{
     align-items: center;
@@ -279,6 +277,7 @@ body{
    text-align: center;
    
 }
+/* medium device */
 
 @media screen and (min-width:669px) and (max-width: 992px) {
     
@@ -312,8 +311,14 @@ body{
     .button-show-all{
          display:inherit;
     }
+    .match-shedule{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
 
 }
+/* smaller device */
 @media screen and (max-width:668px) {
     .header-container{
         flex-direction: column;
@@ -365,6 +370,11 @@ body{
         
         flex-direction: column;
         align-items: center;
+    }
+    .match-shedule{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
     }
     
 }
