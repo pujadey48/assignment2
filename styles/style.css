@@ -332,6 +332,8 @@ body{
 
     .part1-heading{
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .part1-para{
@@ -341,6 +343,8 @@ body{
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .header-part2{
