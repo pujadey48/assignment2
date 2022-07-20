@@ -72,10 +72,48 @@ body{
     height: 300px;
     background-color: #161616;
     border-radius: 20px;
+   
     /* margin-left: 40px;
     margin-right: 10px; */
+    
  } 
-  .side-buttons{
+ .side-button{
+   margin-left: 45px;
+   margin-right: 45px;
+   margin-top: 40px;
+   
+ }
+ .button1{
+    width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius:5px;
+  background-color: #DD0000;
+  text-align: center;
+padding-bottom: 20px;
+margin-bottom: 10px;
+ }
+ .button1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+ }
+ .button2{
+    width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius:5px;
+  background-color: #FFFFFF;
+  text-align: center;
+padding-bottom: 20px;
+margin-bottom: 10px;
+ }
+ .button2 a{
+    text-decoration: none;
+    color:black;
+    
+ }
+  /* .side-buttons{
     display: flex;
     justify-content: center;
     align-items:center;
@@ -118,7 +156,7 @@ body{
 }
  .side-buttons-item{
     margin: 30px;
-} 
+}  */
 
 /* .side-buttons-list li{
     list-style: none;
