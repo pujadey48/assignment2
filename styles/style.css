@@ -17,6 +17,7 @@ body{
     position: relative;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 20px;
 }
 .header-part1{
     /* height: 424px; */
@@ -45,6 +46,7 @@ body{
     background: #DD0000;
     border-radius: 5px;
     padding: 10px 24px;
+    
 }
 .header-part2{
     display: inline-block;
@@ -54,6 +56,13 @@ body{
 }
 .part2-img{
     margin: auto;
+    width:323px;
+    height:340px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.part2-img:hover{
+    width: 343px;
+    height: 360px;
     
 }
 /* ---main part--- */
@@ -70,7 +79,7 @@ body{
 
  .side-bar{
     width: 300px;
-    height: 250px;
+    height: 290px;
     background-color: #161616;
     border-radius: 20px;
    
